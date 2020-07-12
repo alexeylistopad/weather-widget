@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>weather_widget</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" type="text/css" href="./icon_styles.css">
+</head>
+
+<body>
+	<div class="widget">
+		<div class="item">
+			<div class="icon weather_cloud_hail_sun_alt"></div>
+			<div class="degrees">
+				<div class="degrees_day">-49°</div>
+				<div class="degrees_night">-79°</div>
+			</div>
+			<div class="description">гроза с сильным моросящим дождем</div>
+		</div>
+		<div class="item">
+			<div class="icon weather_cloud_hail_sun_alt"></div>
+			<div class="degrees">
+				<div class="degrees_day">-49°</div>
+				<div class="degrees_night">-79°</div>
+			</div>
+			<div class="description">гроза с сильным моросящим дождем</div>
+		</div>
+		<div class="item">
+			<div class="icon weather_cloud_hail_sun_alt"></div>
+			<div class="degrees">
+				<div class="degrees_day">-49°</div>
+				<div class="degrees_night">-79°</div>
+			</div>
+			<div class="description">гроза с сильным моросящим дождем</div>
+		</div>
+		<div class="item">
+			<div class="icon weather_cloud_hail_sun_alt"></div>
+			<div class="degrees">
+				<div class="degrees_day">-49°</div>
+				<div class="degrees_night">-79°</div>
+			</div>
+			<div class="description">гроза с сильным моросящим дождем</div>
+		</div>
+	</div>
+	<div class="city">Кременчуг-Константиновское</div>
+</body>
+
+<script type="text/javascript">
+	
+	window.onload = function(){
+		const coef = 0.375;
+		var width = document.body.offsetWidth;
+		var height = Math.floor(width*coef);
+
+		var widget = document.getElementsByClassName('widget')[0];
+		widget.style.width = width + 'px';
+		widget.style.height = height + 'px';
+	}
+</script>
+</html>

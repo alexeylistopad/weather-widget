@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap%27');
+
+html {
+	overflow: hidden;
+}
+
+body{
+	margin: 0;
+	font-family: 'Open Sans';
+}
+
+.widget{
+	position: absolute;
+	top:0;
+	width:1040px;
+	height: 390px;
+	padding: 1.95%;
+	background-color: black;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.item{
+	width: 100%;
+	margin-left: 1.99%;
+}
+
+.item:first-child{
+	margin: 0; 
+	padding: 0;
+}
+
+.icon{
+	position: relative;
+	background-position: center;
+	background-size: 100%;
+	height: 50%;
+	width:100%;
+}
+
+.degrees{
+	position: relative;
+	height: 25%;
+	width:100%;
+}
+
+.degrees_day{
+	width: 100%;
+	height: 100%;
+	color: #ffffff;
+	text-align: center;
+	font-weight: bold;
+	font-size: 8vw;
+	margin: 0;
+	line-height: 100%;
+}
+
+.degrees_night{
+	position: absolute;
+	top:0;
+	width: 100%;
+	height: 100%;
+	color: #8c8c8c;
+	text-align: right;
+	font-size: 3vw;
+	margin: 0;
+	line-height: 450%;
+}
+
+.description{
+	position: relative;
+	color: #ffffff;
+	text-align: center;
+	font-size: 2.3vw;
+	height: 25%;
+	width:100%;
+	line-height: 110%;
+}
+
+.city{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: #8c8c8c;
+	text-align: center;
+	font-size: 2vw;
+	margin: 0;
+	line-height: 120%;
+}
